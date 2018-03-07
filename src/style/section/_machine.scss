@@ -1,0 +1,193 @@
+.data-machine {
+  @include stretch;
+
+  &__status-wrap {
+    margin-right: 30px;
+    @include stretch;
+
+    @include laptop-min {
+      margin-right: 15px;
+    }
+  }
+
+  &__progress {
+    min-width: 10px;
+    height: 40px;
+    background: #E8E8E8;
+    position: relative;
+
+    &-active {
+      position: absolute;
+      width: 100%;
+      height: 20px;
+      bottom: 0;
+      left: 0;
+      transition: .2s all ease-in-out;
+
+      &.red {
+        background: $color-main;
+      }
+
+      &.green {
+        background: $color-2;
+      }
+
+      &.yellow {
+        background: $color-3;
+      }
+
+      &.shadow {
+        background: none;
+      }
+    }
+  }
+
+  &__icon {
+    width: 50px;
+    margin-right: 10px;
+
+    &.ZUK-0 {
+      background: url("../img/svg/ZUK-0.svg") no-repeat center;
+    }
+
+    &.ZUK-1 {
+      background: url("../img/svg/ZUK-1.svg") no-repeat center;
+    }
+
+    &.ZUK-2 {
+      background: url("../img/svg/ZUK-2.svg") no-repeat center;
+    }
+
+    &.ZUK-3 {
+      background: url("../img/svg/ZUK-4.svg") no-repeat center;
+    }
+
+    &.ZUK-4 {
+      background: url("../img/svg/ZUK-3.svg") no-repeat center;
+    }
+
+    &.KUK-0 {
+      background: url("../img/svg/KUK-0.svg") no-repeat center;
+      background-size: 47px;
+    }
+
+    &.KUK-1 {
+      background: url("../img/svg/KUK-1.svg") no-repeat center;
+      background-size: 47px;
+    }
+
+    &.KUK-2 {
+      background: url("../img/svg/KUK-2.svg") no-repeat center;
+      background-size: 47px;
+    }
+
+    &.KUK-3 {
+      background: url("../img/svg/KUK-3.svg") no-repeat center;
+      background-size: 47px;
+    }
+
+    &.KUK-4 {
+      background: url("../img/svg/KUK-4.svg") no-repeat center;
+      background-size: 47px;
+    }
+
+    &.test-0 {
+      background: url("../img/svg/test-m0.svg") no-repeat center;
+      background-size: 46px;
+    }
+
+    &.KS-0 {
+      background: url("../img/svg/KSU-0.svg") no-repeat center;
+      background-size: contain;
+    }
+
+    &.KS-1 {
+      background: url("../img/svg/KSU-2.svg") no-repeat center;
+      background-size: contain;
+    }
+
+    &.KS-2 {
+      background: url("../img/svg/KSU-1.svg") no-repeat center;
+      background-size: contain;
+    }
+
+    &.KS-3 {
+      background: url("../img/svg/KSU-3.svg") no-repeat center;
+      background-size: contain;
+    }
+
+    &.KS-4 {
+      background: url("../img/svg/KSU-4.svg") no-repeat center;
+      background-size: contain;
+    }
+  }
+
+  &__name {
+    display: block;
+    text-decoration: none;
+    color: $color-text-2;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    position: relative;
+    white-space: nowrap;
+
+    span {
+      min-width: 16px;
+      height: 16px;
+      border-radius: 16px;
+      display: inline-block;
+      text-align: center;
+      font-size: 11px;
+      padding-left: 2px;
+      padding-right: 2px;
+      color:#fff;
+      line-height: 16px;
+      top: -11px;
+      margin-left: 5px;
+      position: absolute;
+
+      &.data-machine__warning {
+        background: $color-main;
+      }
+
+      &.data-machine__noWarning {
+        background: #f1c340;
+      }
+
+      &.no-solo {
+        margin-left: 25px;
+      }
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__code {
+    display: block;
+    text-decoration: none;
+    color: #b1b1b1;
+    white-space: nowrap;
+    font-size: 12px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.mylti-open {
+  width: 24px;
+  margin-right: -4px;
+  height: 18px;
+  background: url("../img/svg/g2.svg") no-repeat center;
+}
+
+.mylti-close {
+  width: 24px;
+  height: 18px;
+  background: url("../img/svg/g1.svg") no-repeat center;
+}

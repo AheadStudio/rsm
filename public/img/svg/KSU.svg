@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="14px" viewBox="0 0 25 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs></defs>
+  <g id="Шаблон" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="Group-3" transform="translate(-1.000000, -3.000000)">
+      <polygon id="Fill-13" points="0 20 26 20 26 0 0 0"></polygon>
+      <path style="fill:#fff;" d="M5,15.5 C5,16.329 4.329,17 3.5,17 C2.671,17 2,16.329 2,15.5 C2,14.671 2.671,14 3.5,14 C4.329,14 5,14.671 5,15.5 Z M18,14.5 C18,15.881 16.881,17 15.5,17 C14.119,17 13,15.881 13,14.5 C13,13.119 14.119,12 15.5,12 C16.881,12 18,13.119 18,14.5 Z M25,15 L18.95,15 C18.973,14.835 19,14.671 19,14.5 C19,12.567 17.433,11 15.5,11 C14.012,11 12.749,11.933 12.243,13.243 L11,12 L9.429,12 L9,15 L8,15 L8.429,12 L1,12 L1.578,7.952 L12,7 L12,3 L18,3 L17,10 L18,10 L25,15 Z M26,9.6284 L24.09,12.2574 L21,11.2534 L21,8.0034 L24.09,7.0004 L26,9.6284 Z" id="Combined-Shape" fill="#202020"></path>
+    </g>
+  </g>
+</svg>

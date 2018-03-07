@@ -1,0 +1,276 @@
+.notification-list {
+  &__item {
+    width: 100%;
+    height: 80px;
+    border-bottom: $border-line;
+    @include stretch;
+  }
+
+  &__status {
+    min-width: 96px;
+    max-width: 96px;
+    @include flex(center, center);
+
+    &-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: $color-3;
+      color: #fff;
+      font-size: 14px;
+      text-transform: uppercase;
+      line-height: 36px;
+      text-align: center;
+      display: block;
+
+      &.warning {
+        background: $color-main;
+      }
+    }
+  }
+
+  &__data {
+    width: auto;
+    flex-direction: column;
+    @include flex(flex-start, center);
+
+    &-top {
+      width: 100%;
+      @include flex(center, space-between);
+    }
+  }
+
+  &__time {
+    font-size: 14px;
+    color: $color-text-2;
+  }
+
+  &__name {
+    margin-left: 25px;
+    span {
+      margin-left: 10px;
+      font-size: 12px;
+      color: rgba(24, 24, 24, .4);
+    }
+  }
+
+  &__info {
+    margin-top: 6px;
+    color: $color-text-2;
+  }
+}
+
+.notification {
+  &__title {
+    width: 100%;
+    padding: 45px 40px;
+    display: flex;
+    align-items: flex-end;
+
+    h1 {
+      font-size: 32px;
+      font-weight: normal;
+      color: #202020;
+    }
+
+    p {
+      margin-left: 123px;
+      font-size: 16px;
+      color: #181818;
+      font-weight: 600;
+      line-height: 30px;
+    }
+  }
+
+  &__result {
+    tr td:nth-of-type(1) {
+      padding-left: 40px;
+
+      span {
+        margin-right: 30px;
+        font-weight: bold;
+      }
+    }
+    tr td:nth-of-type(2) {
+      font-size: 14px;
+      font-weight: bold;
+      span {
+        margin-left: 30px;
+        font-weight: normal;
+      }
+    }
+    tr td:nth-of-type(3) {
+      padding-left: 25px;
+    }
+    tr th:nth-of-type(3) span {
+      padding: 0 25px;
+    }
+  }
+}
+
+.notification-parameter {
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  min-width: 250px;
+  max-width: 250px;
+  height: 50px;
+  border-right: 1px solid rgba(32, 32, 32, .1);
+  cursor: pointer;
+
+  p {
+    color: rgba(24, 24, 24, .8);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+
+    #Rectangle-6 use {
+      transition: .2s all ease-in-out;
+    }
+
+    svg {
+      margin-left: 10px;
+    }
+  }
+
+  &.isActive {
+    #Rectangle-6 use {
+      fill: #78C800;
+    }
+  }
+
+  &:hover {
+    #Rectangle-6 use {
+      fill: #78C800;
+    }
+  }
+}
+
+.notification-filter {
+  display: flex;
+  padding: 0 40px;
+  flex-direction: column;
+  position: relative;
+
+  &__wrap {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  &__panel {
+    display: flex;
+    align-items: center;
+  }
+
+  &__succes {
+    max-width: 170px;
+    min-width: 170px;
+    background: $color-2;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+
+    &:hover {
+      background: $color-1
+    }
+  }
+
+  &__result {
+    width: 100%;
+    padding-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    &-wrap {
+      display: flex;
+    }
+
+    &-col {
+      min-width: 250px;
+      max-width: 250px;
+      padding: 0 10px;
+    }
+
+    &-clear {
+      p {
+        font-weight: 600;
+        color: rgba(196, 0, 50, .8);
+        font-size: 12px;
+        cursor: pointer;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  &__date {
+    position: absolute;
+    left: 40px;
+    top: 0;
+  }
+}
+
+.notification-result {
+  width: 100%;
+  height: 36px;
+  margin-bottom: 4px;
+  background: #dedede;
+  padding-left: 20px;
+  padding-right: 10px;
+  font-weight: 600;
+  @include flex(center, space-between);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__delete {
+    width: 16px;
+    height: 16px;
+    background: url("../img/svg/close.svg") no-repeat center;
+    cursor: pointer;
+  }
+
+  p {
+    color: $color-text-2;
+  }
+}
+
+.result-status {
+  width: 36px;
+  height: 36px;
+  display: block;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 36px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+
+  &.color-1 {
+    background: rgba(32, 32, 32, 0.149);
+  }
+
+  &.color-2 {
+    background: #f1c340;
+  }
+
+  &.color-4 {
+    background: #d10a40;
+  }
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="36" height="36">
+	<defs>
+		<image width="36" height="36" id="img1" href="oil.svg"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Group 24" href="#img1" x="0" y="0" />
+</svg>

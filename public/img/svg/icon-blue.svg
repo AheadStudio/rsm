@@ -1,0 +1,35 @@
+<svg width="56" height="78" viewBox="0 0 56 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Group 13 Copy 3</title>
+  <desc>Created using Figma</desc>
+  <g id="Canvas" transform="translate(-2483 -593)">
+    <g id="Group 13 Copy 3">
+      <g id="Combined Shape" opacity="0.4" filter="url(#filter0_f)">
+        <use xlink:href="#path0_fill" transform="translate(2493 641)" fill="url(#paint0_linear)"/>
+      </g>
+      <g id="Combined Shape">
+        <use xlink:href="#path1_fill" transform="translate(2483 593)" fill="#06AAF5"/>
+      </g>
+      <g id="Oval 3 Copy 2">
+        <use xlink:href="#path2_fill" transform="translate(2493 603)" fill="#FFFFFF"/>
+      </g>
+      <g id="Combined Shape">
+        <use xlink:href="#path3_fill" transform="translate(2499.7 614)" fill="#06AAF5"/>
+      </g>
+    </g>
+  </g>
+  <defs>
+    <filter id="filter0_f" filterUnits="userSpaceOnUse" x="2484" y="632" width="54" height="39" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="4.07742" result="effect1_foregroundBlur"/>
+    </filter>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 21.598 -36 0 18 0)">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.01"/>
+      <stop offset="1"/>
+    </linearGradient>
+    <path id="path0_fill" fill-rule="evenodd" d="M 18 21.598L 5.27208 15.2721C -1.75736 11.7784 -1.75736 6.11397 5.27208 2.62027C 12.3015 -0.873425 23.6985 -0.873425 30.7279 2.62027C 37.7574 6.11397 37.7574 11.7784 30.7279 15.2721L 18 21.598Z"/>
+    <path id="path1_fill" fill-rule="evenodd" d="M 28 67.598L 8.20101 47.799C -2.73367 36.8643 -2.73367 19.1357 8.20101 8.20101C 19.1357 -2.73367 36.8643 -2.73367 47.799 8.20101C 58.7337 19.1357 58.7337 36.8643 47.799 47.799L 28 67.598Z"/>
+    <path id="path2_fill" fill-rule="evenodd" d="M 18 36C 27.9411 36 36 27.9411 36 18C 36 8.05887 27.9411 0 18 0C 8.05887 0 0 8.05887 0 18C 0 27.9411 8.05887 36 18 36Z"/>
+    <path id="path3_fill" fill-rule="evenodd" d="M 13.301 11C 13.301 8.79102 15.092 7 17.301 7L 19.0291 7L 20.301 0L 14.301 0L 14.1189 1L 1.1189 1L 0 7.15503L 7.73901 8.875L 9.30103 12L 13.4431 12C 13.4314 11.9554 13.4202 11.9106 13.4097 11.8655C 13.3936 11.7966 13.3787 11.7271 13.3655 11.657C 13.3254 11.4439 13.301 11.2255 13.301 11ZM 7.30103 12C 7.30103 13.104 6.40503 14 5.30103 14C 4.19702 14 3.30103 13.104 3.30103 12C 3.30103 10.896 4.19702 10 5.30103 10C 6.40503 10 7.30103 10.896 7.30103 12ZM 21.301 11.0003L 21.301 10.7573L 24.5442 14.0003L 19.9221 14.0003C 20.76 13.2663 21.301 12.2013 21.301 11.0003ZM 17.301 8C 15.644 8 14.301 9.34302 14.301 11C 14.301 12.657 15.644 14 17.301 14C 18.958 14 20.301 12.657 20.301 11C 20.301 9.34302 18.958 8 17.301 8Z"/>
+  </defs>
+</svg>

@@ -1,0 +1,13 @@
+<svg width="26" height="14" viewBox="0 0 26 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Combined Shape</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1544 -471)">
+<g id="Combined Shape">
+<use xlink:href="#path0_fill" transform="translate(1544.7 471)" fill="#FFFFFF"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 17.301 7L 19.0291 7L 20.301 0L 14.301 0L 14.119 1L 1.11902 1L 0 7.155L 7.73901 8.875L 9.30103 12L 13.443 12C 13.359 11.679 13.301 11.348 13.301 11C 13.301 8.79099 15.092 7 17.301 7ZM 5.30103 14C 4.19702 14 3.30103 13.104 3.30103 12C 3.30103 10.896 4.19702 10 5.30103 10C 6.40503 10 7.30103 10.896 7.30103 12C 7.30103 13.104 6.40503 14 5.30103 14ZM 21.301 11.0003L 21.301 10.7573L 24.5439 14.0003L 19.922 14.0003C 20.76 13.2663 21.301 12.2013 21.301 11.0003ZM 14.301 11C 14.301 12.657 15.644 14 17.301 14C 18.958 14 20.301 12.657 20.301 11C 20.301 9.34299 18.958 8 17.301 8C 15.644 8 14.301 9.34299 14.301 11Z"/>
+</defs>
+</svg>
+
